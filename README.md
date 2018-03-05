@@ -4,4 +4,4 @@
 
 ## Tecnologias:
 
-### html5, css3, React, js con Ecmascript 6.
+### html5, css3, React con JSX, js con Ecmascript 6.
