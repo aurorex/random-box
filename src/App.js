@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// creando objetos
 const coloresCubo={
   1:'red',
   2:'blue',
@@ -49,10 +50,10 @@ class Cubo extends React.Component{
 class App extends React.Component{
   render() {
     return (
-    <div>
-    <h1>Cubo Mágico</h1>
+    <div className="center">
+      <h1>Cubo Mágico</h1>
       <Cubo/>
-      </div>
+    </div>
     );
   }
 };
